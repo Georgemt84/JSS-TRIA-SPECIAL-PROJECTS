@@ -1,0 +1,7 @@
+DirectoryIndex index.html
+
+RewriteEngine On
+
+# Redirect old homepage filename to the domain root
+RewriteCond %{THE_REQUEST} \s/+MAIN\.html[\s?] [NC]
+RewriteRule ^MAIN\.html$ / [R=301,L]
