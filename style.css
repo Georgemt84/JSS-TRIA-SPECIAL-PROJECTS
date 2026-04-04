@@ -386,6 +386,7 @@ main.main-content {
   max-height: 200px;     /* constrain height if needed */
   object-fit: cover;
   display: block;
+  margin-top: 20px;
 }
 
 .article-card h3 {
